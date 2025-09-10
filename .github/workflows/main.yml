@@ -23,6 +23,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           projectBaseDir: backend
+          organization: Namitago
+          projectKey: Docker-compose
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
